@@ -81,8 +81,9 @@ body {
 
 .skillsSection,
 .contactSection {
-	background-color: #5d8fd4;
-	color: #fff;
+	background: linear-gradient(-45deg, #5d8fd4, #294368, #5d8fd4, #132641);
+	background-size: 700% 700%;
+	animation: gradient 15s ease-in-out infinite;
 }
 
 .skill {
@@ -203,6 +204,9 @@ body {
 	background-color: #5d8fd4;;
 	border-color: #5d8fd4;
 	color: #fff;
+	background: linear-gradient(-45deg, #5d8fd4, #294368, #5d8fd4, #132641);
+	background-size: 700% 700%;
+	animation: gradient 15s ease-in-out infinite;
 }
 
 .filter {
@@ -390,6 +394,9 @@ body {
 	top: 0px;
 	left: 0px;
 	z-index: 1000;
+	background: linear-gradient(-45deg, #5d8fd4, #294368, #5d8fd4, #132641);
+	background-size: 700% 700%;
+	animation: gradient 8s ease-in-out infinite;
 }
 
 .loader .inner {
